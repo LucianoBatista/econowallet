@@ -890,5 +890,40 @@ econowallet|schema||user||UPDATE|G</Grants>
       <Charset>utf8mb4</Charset>
     </collation>
     <user id="276" parent="1" name="user"/>
+    <table id="277" parent="2" name="registers"/>
+    <column id="278" parent="277" name="id">
+      <Position>1</Position>
+      <DataType>bigint|0s</DataType>
+      <NotNull>1</NotNull>
+      <SequenceIdentity>null</SequenceIdentity>
+    </column>
+    <column id="279" parent="277" name="products">
+      <Position>2</Position>
+      <DataType>varchar(20)|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="280" parent="277" name="created_at">
+      <Position>3</Position>
+      <DataType>date|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="281" parent="277" name="expire_at">
+      <Position>4</Position>
+      <DataType>date|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <index id="282" parent="277" name="ix_registers_created_at">
+      <ColNames>created_at</ColNames>
+      <Type>btree</Type>
+    </index>
+    <index id="283" parent="277" name="ix_registers_expire_at">
+      <ColNames>expire_at</ColNames>
+      <Type>btree</Type>
+    </index>
+    <key id="284" parent="277" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>id</ColNames>
+      <Primary>1</Primary>
+    </key>
   </database-model>
 </dataSource>

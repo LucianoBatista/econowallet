@@ -2,6 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5be4dacd-4c58-4193-8213-c51d4df731e6" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/a24b8507-5473-4152-b975-4f028ddbe288.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/a24b8507-5473-4152-b975-4f028ddbe288.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/econoWallet.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/econoWallet.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/Dockerfile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Pipfile" beforeDir="false" afterPath="$PROJECT_DIR$/Pipfile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Pipfile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/Pipfile.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker-compose.yml" beforeDir="false" afterPath="$PROJECT_DIR$/docker-compose.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/app/api/status.py" beforeDir="false" afterPath="$PROJECT_DIR$/project/app/api/status.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/project/app/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/project/app/main.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -37,7 +45,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1627758298722</updated>
-      <workItem from="1627758304756" duration="8244000" />
+      <workItem from="1627758304756" duration="18265000" />
     </task>
     <servers />
   </component>

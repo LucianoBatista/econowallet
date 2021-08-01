@@ -2,7 +2,7 @@ import os
 
 from fastapi import APIRouter, Depends
 
-from app.config import Settings, get_settings
+from project.app.config import Settings, get_settings
 
 router = APIRouter()
 APP_VERSION = os.getenv("APP_VERSION", "1.0.0")

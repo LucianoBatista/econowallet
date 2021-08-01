@@ -2,7 +2,8 @@ import logging
 
 from fastapi import FastAPI
 
-from app.api import status
+from project.app.api import status
+from project.app.database.database_session import global_init
 
 log = logging.getLogger("uvicorn")
 
@@ -23,3 +24,4 @@ app = create_application()
 @app.on_event("startup")
 async def startup_event():
     log.info("Starting up...")
+    global_init()
